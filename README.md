@@ -121,6 +121,17 @@ npm install --save-dev webpack webpack-cli
 px webpack --mode=development
 px webpack --mode=production
 
+PS C:\Users\User\env-app> npx webpack --config webpack.config.js
+
+
+
+https://typicode.github.io/husky/get-started.html
+
+
+https://babeljs.io/docs/
+
+
+
 
 https://jsdoc.app/about-getting-started
 
