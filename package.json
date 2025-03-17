@@ -10,6 +10,11 @@
     "doc": "npx jsdoc -c jsdoc.json",
     "prepare": "husky"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +22,8 @@
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
     "@eslint/js": "^9.22.0",
     "babel-loader": "^10.0.0",
     "commitizen": "^4.3.1",

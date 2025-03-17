@@ -1,5 +1,5 @@
 bash << EOF
-# 
+# STARTING TESTS
 # ...
 EOF
 npm test
