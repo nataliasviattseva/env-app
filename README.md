@@ -118,8 +118,8 @@ PASS  ./sum.test.js
 
 
 npm install --save-dev webpack webpack-cli
-
-
+px webpack --mode=development
+px webpack --mode=production
 
 
 https://jsdoc.app/about-getting-started
@@ -129,8 +129,5 @@ https://jsdoc.app/about-getting-started
 
 
 
-
-
-npm install --save-dev webpack webpack-cli
 
 
