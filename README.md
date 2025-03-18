@@ -10,7 +10,7 @@ Clone the repository and install dependencies:
 
 ```sh
 # Clone the repository
-git clone https://github.com/natalia.sviattseva/env-app.git
+git clone https://github.com/nataliasviattseva/env-app.git
 cd env-app
 
 # Install dependencies
