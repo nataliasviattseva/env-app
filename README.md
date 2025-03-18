@@ -48,7 +48,7 @@ npm install
 │── .husky          # Husky commit hooks
 ```
 
-## 🛠Tools & Technologies Used
+## Tools & Technologies Used
 - **Webpack**: Bundles JavaScript, CSS, and assets.
 - **Babel**: Transpiles modern JavaScript (ES6+) for browser compatibility.
 - **SASS**: Preprocessor for CSS styling.
