@@ -136,6 +136,12 @@ https://babeljs.io/docs/
 https://jsdoc.app/about-getting-started
 
 
+https://eslint.org/
+
+
+https://babeljs.io/setup#installation
+
+
 
 
 
