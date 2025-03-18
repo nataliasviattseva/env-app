@@ -8,7 +8,8 @@
     "lint": "npx eslint --config ./eslint.config.js",
     "test": "jest --coverage",
     "doc": "npx jsdoc -c jsdoc.json",
-    "prepare": "husky"
+    "prepare": "husky || true",
+    "commitlint": "commitlint --edit"
   },
   "husky": {
     "hooks": {
