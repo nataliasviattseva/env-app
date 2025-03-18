@@ -71,9 +71,3 @@ npm run doc
 - Commitlint (for commit message enforcement)
 - JSDoc (for documentation)
 
-### Production Dependencies
-- Lodash
-
-## License
-This project is licensed under the ISC License.
-
