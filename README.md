@@ -1,7 +1,7 @@
 # env-app
 
 ## Overview
-**env-app** is a JavaScript project using Webpack for bundling, Jest for testing, ESLint for linting, and Husky for Git hooks. It includes Babel for transpiling modern JavaScript and supports React development.
+**env-app** is a JavaScript project using Webpack for bundling, Jest for testing, JSDoc pour generer la documentation, ESLint for linting, SASS pour gestion de styles, and Husky for Git hooks. It includes Babel for transpiling modern JavaScript and supports React development.
 
 ## Installation
 
