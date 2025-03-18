@@ -1,11 +1,21 @@
 {
-    "source": {
+  "plugins": [],
+  "recurseDepth": 10,
+  "source": {
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_",
     "include": ["src"],
     "exclude": ["node_modules"],
-    "includePattern": "\\.js$",
-    "excludePattern": "(node_modules|test)"
-  },
-    "opts": {
-      "destination": "./docs"
+    "tags": {
+      "allowUnknownTags": true,
+      "dictionaries": ["jsdoc", "closure"]
+    },
+    "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
     }
+  },
+  "opts": {
+    "destination": "./docs"
   }
+}
