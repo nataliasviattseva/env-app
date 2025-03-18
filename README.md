@@ -35,7 +35,7 @@ npm run prepare
 ```
 
 ## Git Hooks
-This project uses **Husky** for managing Git hooks. The following hook is configured:
+This project uses **Husky** and **commitlint** for managing Git hooks. The following hook is configured:
 
 - **commit-msg**: Ensures commit messages follow conventional commit guidelines using Commitlint.
 
