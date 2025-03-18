@@ -1,79 +1,89 @@
 # env-app
 
 ## Overview
-**env-app** is a JavaScript project using Webpack for bundling, Jest for testing, JSDoc pour generer la documentation, ESLint for linting, SASS pour gestion de styles, and Husky for Git hooks. It includes Babel for transpiling modern JavaScript and supports React development.
+**env-app** is a JavaScript-based project configured with Webpack for module bundling, Babel for transpilation, SASS for styling, ESLint for code linting, Jest for testing, and JSDoc for documentation generation. The project also integrates Husky and Commitlint to enforce commit message conventions.
+### Prerequisites
+Ensure you have **Node.js** installed on your machine.
 
-## Installation
+### Installation
+Clone the repository and install dependencies:
 
+```sh
+# Clone the repository
+git clone https://github.com/natalia.sviattseva/env-app.git
+cd env-app
+
+# Install dependencies
+npm install
+```
 To set up the project, install the dependencies:
 
 ```sh
 npm install
 ```
 
-## Scripts
-The project includes the following scripts:
+## Available Scripts
 
-```sh
-# Build the project for production using Webpack
-npm run prod
+### **Build & Development**
 
-# Start a development server with Webpack and auto-open the browser
-npm run dev
+- **`npm run dev`**: Runs linting, testing, documentation generation, and Webpack in development mode.
+- **`npm run prod`**: Runs Jest tests with coverage and compiles the project using Webpack in production mode.
 
-# Run ESLint with the specified configuration
-npm run lint
+### **Code Quality & Documentation**
 
-# Run tests using Jest with coverage enabled
-npm run test
+- **`npm run lint`**: Runs ESLint to check for code quality issues.
+- **`npm run test`**: Runs Jest tests.
+- **`npm run doc`**: Generates documentation using JSDoc.
 
-# Generate documentation using JSDoc
-npm run doc
-
-# Initialize Husky for Git hooks
-npm run prepare
+## Project Structure
+```
+/env-app
+│── /src            # Source code
+│── /dist           # Compiled output (generated after build)
+│── /docs           # Documentation (generated using JSDoc)
+│── package.json    # Project configuration and dependencies
+│── webpack.config.js  # Webpack configuration
+│── .eslintrc.json  # ESLint configuration
+│── jsdoc.json      # JSDoc configuration
+│── .husky          # Husky commit hooks
 ```
 
-## Git Hooks
-This project uses **Husky** for managing Git hooks. The following hook is configured:
+## 🛠️ Tools & Technologies Used
+- **Webpack**: Bundles JavaScript, CSS, and assets.
+- **Babel**: Transpiles modern JavaScript (ES6+) for browser compatibility.
+- **SASS**: Preprocessor for CSS styling.
+- **ESLint**: Linting tool to enforce coding best practices.
+- **Jest**: JavaScript testing framework.
+- **Husky**: Git hooks to enforce commit rules.
+- **Commitlint**: Ensures commit messages follow the Conventional Commit standard.
+- **JSDoc**: Generates API documentation from source code comments.
 
-- **commit-msg**: Ensures commit messages follow conventional commit guidelines using Commitlint.
+## Commit Message Convention
+This project follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Example:
 
-## Linting
-ESLint is configured for JavaScript and React. Run the following command to check for linting issues:
-
-```sh
-npm run lint
+```
+feat: add new authentication feature
+fix: resolve the login page bug
+chore: update dependencies
 ```
 
-## Testing
-Jest is used for unit testing. To run tests with coverage:
+Husky and Commitlint ensure that commits follow this convention.
 
-```sh
-npm run test
-```
+## Automation & Hooks
+- **Pre-commit hooks**: ESLint and Jest run before a commit to enforce quality.
+- **Commit message validation**: Commitlint checks messages for correct formatting.
 
-## Documentation
-JSDoc is used to generate project documentation. Run the following command to generate docs:
+## 🛠 How to Run the Project
+1. **Development Mode**:
+   ```sh
+   npm run dev
+   ```
+2. **Production Build**:
+   ```sh
+   npm run prod
+   ```
 
-```sh
-npm run doc
-```
+ **Happy Coding!** 
 
-## Dependencies
 
-### Development Dependencies
-- Babel (for JavaScript transpiling)
-- Webpack (for bundling)
-- ESLint (for linting)
-- Jest (for testing)
-- Husky (for Git hooks)
-- Commitlint (for commit message enforcement)
-- JSDoc (for documentation)
-
-### Production Dependencies
-- Lodash
-
-## License
-This project is licensed under the ISC License.
 
