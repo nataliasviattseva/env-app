@@ -1,0 +1,14 @@
+// Define variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+// Apply styles
+body {
+  background: $primary-color;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: $secondary-color;
+}

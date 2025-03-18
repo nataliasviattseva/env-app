@@ -5,19 +5,12 @@
 
 import _ from "lodash";
 import printMe from "./print.js";
+import "./styles/main.scss";
 
-function component() {
-  const element = document.createElement("div");
-  const btn = document.createElement("button");
+console.log("SASS is now working with Webpack!");
 
-  element.innerHTML = _.join(["Hello", " webpack"], " ");
-
-  btn.innerHTML = "Click me and check the console!";
-  btn.onclick = printMe;
-
-  element.appendChild(btn);
-
-  return element;
-}
-
-document.body.appendChild(component());
+const greet = (name) => {
+    console.log(`Hello, ${name}!`);
+  };
+  
+  greet("Babel");
