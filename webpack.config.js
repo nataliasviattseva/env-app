@@ -31,11 +31,11 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/, // Matches .scss files
+        test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader, // Extract CSS into separate files
-          "css-loader", // Translates CSS into CommonJS
-          "sass-loader", // Compiles SASS to CSS
+          MiniCssExtractPlugin.loader,
+          "css-loader",
+          "sass-loader",
         ],
       },
     ],
